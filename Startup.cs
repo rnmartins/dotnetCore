@@ -16,6 +16,7 @@ namespace dotnetCore
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -30,10 +31,10 @@ namespace dotnetCore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                // endpoints.MapGet("/", async context =>
+                // {
+                //     await context.Response.WriteAsync("Hello World!");
+                // });
 
                 endpoints.MapGet("/outro", async context =>
                 {
@@ -44,6 +45,11 @@ namespace dotnetCore
                 {
                     await context.Response.WriteAsync("<h1>Nova página</h1><br><p>Um novo paragráfo!</p>");
                 });
+
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index3}/{id?}"
+                );
             });
         }
     }

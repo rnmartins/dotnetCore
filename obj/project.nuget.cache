@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "20LsB3xv8hHsX+axM7H+Ht/JxOAjNPssSocsj6UNcPnJ1kcNSRl6l0NxIAxLYjO+6yXZ0DnEEgbLwumGdlSVHw==",
+  "dgSpecHash": "SVVlHPsjTRWZVT0GBDRCB4lj2DqMwo9KlS53jhJp5ZKqcnj6Rhf3nJB9hfPCJPFDWGXmKZj+Tvz8b/gf7OfQpQ==",
   "success": true,
-  "projectFilePath": "/home/renanm/Documents/dotNet/dotnetCore/dotnetCore.csproj",
+  "projectFilePath": "/home/renanm/Documents/dotNet/dotnetCore/WebVazio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

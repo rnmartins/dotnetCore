@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/renanm/Documents/dotNet/dotnetCore/dotnetCore.csproj",
+  "FilePath": "/home/renanm/Documents/dotNet/dotnetCore/WebVazio.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,23 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "dotnetCore",
-  "Documents": [],
+  "RootNamespace": "WebVazio",
+  "Documents": [
+    {
+      "FilePath": "/home/renanm/Documents/dotNet/dotnetCore/Views/Home/Index2.cshtml",
+      "TargetPath": "Views\\Home\\Index2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/renanm/Documents/dotNet/dotnetCore/Views/Home/Index3.cshtml",
+      "TargetPath": "Views\\Home\\Index3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/renanm/Documents/dotNet/dotnetCore/Views/Home/Index4.cshtml",
+      "TargetPath": "Views\\Home\\Index4.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

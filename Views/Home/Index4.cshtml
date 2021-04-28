@@ -1,0 +1,22 @@
+@model List<WebVazio.Models.Produto>;
+
+<h1>Index4</h1>
+
+<table>
+    <tr>
+        <td>Id</td>
+        <td>Produto</td>
+        @foreach(var item in @Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nome</td>
+            </tr>
+        }
+    </tr>
+</table>
+
+@for(int i = 0; i < (int)ViewData["id"]; i++) 
+{ 
+    <li>@i</li>
+}

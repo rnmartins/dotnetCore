@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/renanm/Documents/dotNet/dotnetCore/dotnetCore.csproj",
-      "projectName": "dotnetCore",
-      "projectPath": "/home/renanm/Documents/dotNet/dotnetCore/dotnetCore.csproj",
+      "projectUniqueName": "/home/renanm/Documents/dotNet/dotnetCore/WebVazio.csproj",
+      "projectName": "WebVazio",
+      "projectPath": "/home/renanm/Documents/dotNet/dotnetCore/WebVazio.csproj",
       "packagesPath": "/home/renanm/.nuget/packages/",
       "outputPath": "/home/renanm/Documents/dotNet/dotnetCore/obj/",
       "projectStyle": "PackageReference",
